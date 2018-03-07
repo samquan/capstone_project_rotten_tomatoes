@@ -1,0 +1,57 @@
+---
+title: "Capstone Project Proposal"
+author: "Samantha Quan"
+date: "March 6, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+## Problem
+
+Rotten Tomatoes rates a movie based off of the critques of roughly a hundred verified critics in their system. This results in a rating of rotten (< 60% of critics gave a positive review), fresh (> 60% of critics gave a positive review), or cetified fresh (reviewed 80 times, > 70% of critics gave a positive review, and 5 of those reviews are from top critics). 
+
+The issue is that you do not know what the rating will be until all of these reviews are processed and each critic has given their thumbs up or thumbs down of a movie. 
+
+## Who is my client and why do they care? What will my client do or decide based on my analysis that they wouldn't have otherwise?
+
+My client would be investors for a movie. Obviously, investors have their own methods to decide whether or not to invest in a production. However, having this kind of analysis would be data backed and gives them a more accurate idea of how a movie will be rated when it is completed.  
+
+If the average person is deciding on a movie to watch, generally they will look online to see reviews for the movie. One of the first things that pop up is its Rotten Tomato score. The higher the rating, the "better" the movie is, which means a person is more likely to watch it. If more people go watch a movie, it's a better return on investment for the investors. 
+
+## What data am I going to use? How will I aquire this?
+
+I would be using the data of previous movies on the Rotten Tomatoes site. I will be scraping this data. 
+
+## Outline of my approach to solve this problem (subject to change later)
+
+1. Scrape data 
+2. Organize data
+3. WILL UPDATE WHEN I GET FURTHER ALONG IN THE CURRICULUM
+
+## Deliverables? 
+
+1. Code
+2. Slide deck
