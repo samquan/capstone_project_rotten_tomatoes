@@ -47,9 +47,9 @@ I would be using the data of previous movies on the Rotten Tomatoes site. I will
 
 ## Outline of my approach to solve this problem (subject to change later)
 
-1. Scrape data 
-2. Organize data
-3. WILL UPDATE WHEN I GET FURTHER ALONG IN THE CURRICULUM
+I plan to use information on previous movies that have already been rated on Rotten Tomatoes in order to predict the ratings of movies coming out. The variables I will be observing are directors, production designers, screenwriters, cinematographer, editors, actors, budget, genre, whether or not it is original (is it a sequel or based off another work), and the story's realism or accuracy. 
+
+It will also be interesting to see the data of all the movies in general. I can also observe which genres tend to be rated higher, if sequels do worse than the original, and how animated movies compare to nonanimated movies. 
 
 ## Deliverables? 
 
